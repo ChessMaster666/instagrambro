@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 0 19%;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.right {
+    position: absolute;
+    right: 19%;
+}
+
+.btn {
+    background-color: rgb(67, 166, 253);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.link {
+    color: rgb(67, 166, 253);
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+#posts {
+    display: flex;
+    justify-content: center;
+}
+
+#allposts {
+    width: 40%;
+}
+
+.avaImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.ava {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.accountName {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.postImg {
+    width: 100%;
+}
+
+.post {
+    border: 1px solid rgb(206, 206, 206);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+}
+
+.postImgBox {
+    height: 500px;
+    overflow-y: hidden;
+}
+
+.postText {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.likesBox {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    padding: 30px 0 0 30px;
+}
+
+.comment6{
+    display: flex;
+    justify-content: center;
+}
+
+.comment1 {
+    display: flex;
+    justify-content: center;
+}
+.comment2 {
+    display: flex;
+    justify-content: center;
+}
+.comment3 {
+    display: flex;
+    justify-content: center;
+}
+.comment4 {
+    display: flex;
+    justify-content: center;
+}
+.comment5 {
+    display: flex;
+    justify-content: center;
+}
+.heart{
+    position:absolute;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0, 7));
+    width: 0;
+    margin-top: -430px;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.many-like{
+    animation: 2s ani ease-in-out forwards;
+}
+@keyframes ani {
+  0%{
+    width: 0;
+  }   
+  10%{
+    width: 200px;
+  }
+  20%{
+    width: 180px;
+  }
+  40%{
+    width: 190px;
+  }
+  50%, 100%{
+    width: 0;
+  }
+}  
